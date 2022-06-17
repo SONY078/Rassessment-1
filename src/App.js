@@ -1,14 +1,15 @@
 import './App.css';
-import FunctionC from './assignment-1/FunctionC';
-import ClassC from './assignment-1/ClassC';
+// eslint-disable-next-line
+// import NameForm from './assignment-2/userDetails';
+import UserData from './assignment-2/UserData';
 
 function App() {
   
   return (
     <div className="App">
-      <h1>Styling using functional and class component</h1>
-      <FunctionC/>
-      <ClassC/>
+      <h1><u>Employee Feedback Form</u></h1>
+      <UserData/>
+      {/* <NameForm/> */}
     </div>
   );
 }
